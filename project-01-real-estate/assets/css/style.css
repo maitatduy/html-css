@@ -50,7 +50,7 @@ a {
 /* Header */
 .header {
     background-color: #e6f0ff;
-    padding-top: 50px;
+    padding-top: 38px;
 }
 
 .navbar {
@@ -102,5 +102,54 @@ a {
 .navbar .action-btn {
     padding: 13px 16px;
     margin-left: 18px;
+}
+
+.hero {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.hero .info {
+    width: 50.36%;
+}
+
+.hero .sub-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #687690;
+}
+
+.hero .title {
+    font-weight: 700;
+    font-size: 6.3rem;
+    line-height: 1.19;
+    color: #000336;
+    margin-top: 8px;
+}
+
+.hero .desc {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    text-transform: capitalize;
+    color: #5a6473;
+    margin-top: 30px;
+}
+
+.hero-cta {
+    min-width: 170px;
+    margin-top: 40px;
+    border-radius: 12px;
+}
+
+.hero .image {
+    margin-left: 67px;
+    width: calc(100% - 50.36% - 67px);
+}
+
+.hero .image img {
+    display: block;
 }
 /* End Header */
