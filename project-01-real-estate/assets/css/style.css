@@ -153,3 +153,42 @@ a {
     display: block;
 }
 /* End Header */
+/* Client */
+.clients {
+    margin-top: 80px;
+    padding: 43px 0;
+}
+
+.clients .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients .row-desc {
+    margin-top: 23px;
+}
+
+.clients .desc {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: #7d8589;
+}
+
+.clients .images {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.clients .images img {
+    padding: 32px 42px 22px;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+}
+
+.clients .images img:hover {
+    box-shadow: 0px 10px 20px 0px #0000001a;
+}
+/* End Client */
